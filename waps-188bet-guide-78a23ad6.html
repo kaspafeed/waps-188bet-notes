@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>188bet · 平台知识库与使用指引</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      background-color: #f9fafc;
+      color: #1c1e21;
+      line-height: 1.6;
+    }
+
+    .hero {
+      background: linear-gradient(145deg, #0b1a2b 0%, #13283f 100%);
+      padding: 3.2rem 2rem 2.8rem;
+      text-align: center;
+    }
+
+    .hero h1 {
+      color: #ffffff;
+      font-size: 2.4rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      margin-bottom: 0.6rem;
+    }
+
+    .hero .sub {
+      color: #b7cdff;
+      font-size: 1.05rem;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2.5rem 1.8rem;
+    }
+
+    .section-label {
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #4a6b8c;
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      font-weight: 500;
+      color: #0b1a2b;
+      margin-bottom: 0.3rem;
+    }
+
+    .desc {
+      color: #374151;
+      margin: 1rem 0 1.8rem;
+      max-width: 780px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.6rem;
+      margin-bottom: 2.8rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1.6rem 1.4rem;
+      border-radius: 16px;
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.03), 0 2px 8px rgba(0, 20, 40, 0.05);
+      border: 1px solid #e7edf4;
+      transition: box-shadow 0.2s;
+    }
+
+    .card:hover {
+      box-shadow: 0 12px 24px rgba(23, 45, 72, 0.06);
+    }
+
+    .card h3 {
+      font-size: 1.1rem;
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+      color: #0b1a2b;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: #3b4b5e;
+    }
+
+    .emph-link {
+      color: #2165b5;
+      text-decoration: none;
+      font-weight: 500;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.15s ease;
+    }
+
+    .emph-link:hover {
+      border-bottom-color: #2165b5;
+    }
+
+    .info-zone {
+      background: #eef4fa;
+      border-radius: 20px;
+      padding: 1.8rem 2rem;
+      margin: 2rem 0;
+    }
+
+    .info-zone p {
+      margin: 0.6rem 0;
+    }
+
+    .tips-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .tips-list li {
+      position: relative;
+      padding-left: 1.5rem;
+      margin-bottom: 0.7rem;
+      color: #1e2c3d;
+    }
+
+    .tips-list li::before {
+      content: "•";
+      position: absolute;
+      left: 0.2rem;
+      color: #2165b5;
+      font-weight: 700;
+    }
+
+    .faq-block {
+      margin: 2rem 0 2.8rem;
+      border-top: 1px solid #d9e1eb;
+      padding-top: 2rem;
+    }
+
+    .faq-item {
+      margin-bottom: 1.3rem;
+    }
+
+    .faq-item strong {
+      display: block;
+      font-weight: 600;
+      color: #0b1a2b;
+      margin-bottom: 0.2rem;
+    }
+
+    .faq-item p {
+      color: #3b4b5e;
+      margin: 0;
+    }
+
+    .footer-note {
+      font-size: 0.9rem;
+      color: #6c7a8b;
+      border-top: 1px solid #dce4ed;
+      padding-top: 2rem;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 1.8rem;
+      }
+      .container {
+        padding: 1.6rem 1.2rem;
+      }
+      .card {
+        padding: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <h1>188bet · 使用指引</h1>
+    <p class="sub">平台知识入口 · 从基本结构到常见问题，提供清晰、稳定的参考信息</p>
+  </section>
+
+  <div class="container">
+
+    <!-- 说明区 -->
+    <span class="section-label">关于此页</span>
+    <h2>一个面向新用户的静态知识库</h2>
+    <p class="desc">
+      本页面从信息组织角度出发，归纳了与 <a href="https://waps-188bet.com" class="emph-link">188bet</a> 相关的通用说明、典型应用场景以及操作时需要注意的要点。
+      内容力求简洁、准确，不涉及具体推荐或诱导，仅作为了解平台功能与规范的辅助材料。
+    </p>
+
+    <!-- 卡片区：目录感布局 -->
+    <div class="grid-3">
+      <div class="card">
+        <h3>平台结构</h3>
+        <p>体育赛事、真人娱乐、电子游戏、虚拟运动等模块按类别划分。用户可根据导航快速定位感兴趣的服务区域。</p>
+      </div>
+      <div class="card">
+        <h3>账户管理</h3>
+        <p>注册、登录、安全设置及限额调整均在个人中心完成。建议使用强密码并定期检查绑定信息。</p>
+      </div>
+      <div class="card">
+        <h3>资金操作</h3>
+        <p>支持多种存款及提现渠道，操作前可查阅对应币种与手续费的实时说明。每笔记录可在交易历史中查看。</p>
+      </div>
+      <div class="card">
+        <h3>规则与条款</h3>
+        <p>每个项目均有独立的参与规则。投注前请仔细阅读相关限额、结算方式及争议处理流程。</p>
+      </div>
+      <div class="card">
+        <h3>客户支持</h3>
+        <p>在线客服与邮件通道覆盖常见咨询。建议优先使用帮助中心搜索关键词，可提高解决效率。</p>
+      </div>
+      <div class="card">
+        <h3>数据与隐私</h3>
+        <p>平台依据隐私政策收集必要信息。用户可查看数据使用范围并管理授权偏好。</p>
+      </div>
+    </div>
+
+    <!-- 提示区 -->
+    <div class="info-zone">
+      <span class="section-label" style="color:#1d4b7a;">使用提示</span>
+      <ul class="tips-list">
+        <li>首次使用前建议花几分钟熟悉界面布局，减少后续操作中的疑问。</li>
+        <li>不同设备（桌面端与移动端）的菜单排布略有差异，功能入口基本一致。</li>
+        <li>部分活动或优惠有特定参与条件，请以官方说明为准，不要轻信非官方渠道的信息。</li>
+        <li>若遇到页面加载或功能异常，可尝试清除浏览器缓存或切换网络环境。</li>
+      </ul>
+    </div>
+
+    <!-- FAQ 摘要 -->
+    <div class="faq-block">
+      <span class="section-label">常见问题摘要</span>
+
+      <div class="faq-item">
+        <strong>为什么我无法登录账户？</strong>
+        <p>请检查账号密码是否正确，注意大小写与特殊字符。若仍无法登录，可通过“忘记密码”流程重置，或联系客服核实账户状态。</p>
+      </div>
+
+      <div class="faq-item">
+        <strong>投注后何时能看到结算结果？</strong>
+        <p>体育赛事通常在比赛结束后几分钟内结算；真人娱乐及电子游戏在每局结束时立即更新。特殊情况以规则说明为准。</p>
+      </div>
+
+      <div class="faq-item">
+        <strong>存取款通常需要多长时间？</strong>
+        <p>存款一般即时到账，提现时间取决于所选方式和银行处理速度，通常为几分钟至三个工作日。可参考平台资金页面的预估时间。</p>
+      </div>
+
+      <div class="faq-item">
+        <strong>如何确认我所在地区是否可以使用？</strong>
+        <p>平台依据用户注册时提供的所在地信息判断服务范围。部分国家或地区可能受限，具体请查阅服务条款中的适用区域说明。</p>
+      </div>
+    </div>
+
+    <!-- 相关信息区 -->
+    <div style="margin-bottom: 2rem;">
+      <span class="section-label">相关信息</span>
+      <p style="color: #374151; margin-top: 0.4rem;">
+        本页所引用的信息均来源于 <a href="https://waps-188bet.com" class="emph-link">188bet</a> 公开内容及通用操作逻辑，
+        不构成任何形式的投资或决策建议。建议用户以平台官方公告与实时界面为最终参考。
+        如需更详细的条款说明，可直接在站内帮助中心搜索相关关键词。
+      </p>
+    </div>
+
+    <div class="footer-note">
+      <p>知识库入口版 · 内容仅供学习参考</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
